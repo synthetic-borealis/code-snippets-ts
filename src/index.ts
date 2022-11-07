@@ -3,6 +3,7 @@ import {
   selectionSort,
   insertionSort,
   mergeSort,
+  gnomeSort,
 } from './sorting';
 
 export {
@@ -10,4 +11,5 @@ export {
   selectionSort,
   insertionSort,
   mergeSort,
+  gnomeSort,
 };

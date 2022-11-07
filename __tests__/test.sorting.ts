@@ -3,6 +3,7 @@ import {
   selectionSort,
   insertionSort,
   mergeSort,
+  gnomeSort,
 } from '../src';
 
 const UNSORTED_SMALL_ARRAY = [4, -2, 1, 15, 8, 29, 7];
@@ -36,6 +37,14 @@ describe('mergeSort', () => {
   test('sorts small arrays', () => {
     const testArray = [...UNSORTED_SMALL_ARRAY];
     mergeSort(testArray);
+    expect(testArray).toEqual(SORTED_SMALL_ARRAY);
+  });
+});
+
+describe('gnomeSort', () => {
+  test('sorts small arrays', () => {
+    const testArray = [...UNSORTED_SMALL_ARRAY];
+    gnomeSort(testArray);
     expect(testArray).toEqual(SORTED_SMALL_ARRAY);
   });
 });
