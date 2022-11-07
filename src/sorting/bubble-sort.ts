@@ -1,9 +1,10 @@
 import { Numeric } from './types';
 
 function bubbleSort(arr: Numeric[]) {
-  let swaps = 0;
+  let swaps: Numeric;
   const array = arr;
   do {
+    swaps = 0;
     for (let i = 0; i < arr.length - 1; i += 1) {
       if (arr[i] > arr[i + 1]) {
         const tmp = arr[i];
