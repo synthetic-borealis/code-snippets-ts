@@ -1,4 +1,7 @@
 import bubbleSort from './bubble-sort';
+import selectionSort from './selection-sort';
 
-// eslint-disable-next-line import/prefer-default-export
-export { bubbleSort };
+export {
+  bubbleSort,
+  selectionSort,
+};
