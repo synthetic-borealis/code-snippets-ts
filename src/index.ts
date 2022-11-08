@@ -4,6 +4,8 @@ import {
   insertionSort,
   mergeSort,
   gnomeSort,
+  bogoSort,
+  bozoSort,
 } from './sorting';
 
 export {
@@ -12,4 +14,6 @@ export {
   insertionSort,
   mergeSort,
   gnomeSort,
+  bogoSort,
+  bozoSort,
 };
